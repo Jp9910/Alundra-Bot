@@ -1,7 +1,7 @@
 FROM php:8.1-cli
 
 # Copy source code and dependencies file to inside-the-container folder /app/
-COPY ./src/ ./composer.json ./.env /app/
+COPY ./src/ ./composer.json ./.env ./resources/images/emote.png /app/
 
 # Copy xdebug config file
 COPY ./99-xdebug.ini /usr/local/etc/php/conf.d/99-xdebug.ini
