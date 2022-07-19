@@ -4,7 +4,7 @@
 
 ### Basic message reply
 
-![bot message reply image](/Docs/images/simple-interaction.png "Bot replying to certain messages")
+![bot message reply image](/Docs/images/simple-interaction.PNG "Bot replying to certain messages")
 
 ### More incoming!
 
