@@ -1,0 +1,19 @@
+{
+    "name": "jp/my_discord_bot",
+    "description": "My discord bot",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jp9910",
+            "email": "jops40@hotmail.com"
+        }
+    ],
+    "require": {
+        "team-reflex/discord-php": "^7.1"
+    }
+}
